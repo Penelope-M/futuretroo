@@ -1,0 +1,59 @@
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/
+
+/*:root {
+    --black: #000000;
+    --darkblue: #150050;
+    --mauve: #3F0071;
+    --pink: #FB2576;
+    --white: #ffffff;
+    --blue:#1b0066
+    --textstyle: font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+body{
+    background-color: var(--darkblue);
+}
+
+footer {
+    background-color: var(--darkblue);
+    color: var(--white);
+}*/
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--white);
+}
+
+h2 {
+    color: var(--white);
+}
+
+h3 {
+    color: var(--white);
+}
+
+h4 {
+    color: var(--white);
+}
+
+
+/*---------------------------------------------------------- 
+# Section Hero  
+----------------------------------------------------------*/
+/*
+main {
+    background-color: var(--black);
+    color: var(--white);
+  padding-top: 170px ;
+}*
+
+/*
+
+*/ 

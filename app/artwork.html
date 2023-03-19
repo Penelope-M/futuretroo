@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link href="/FutuRetro/app/styles-app.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <title>FutuRetro</title>
+</head>
+
+<body class="body-artwork">
+    <header>
+        <nav class="navbar navbar-dark fixed-top nav-artwork">
+            <div class="container-fluid">
+                <a href="index.html"><button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar"
+              aria-controls="offcanvasDarkNavbar">
+              <i class="bi bi-chevron-left"></i>
+            </button>
+          </a>
+                <button class="like" type="button" id="like" aria-controls="offcanvasDarkNavbar">
+                    <i class="bi bi-heart"></i>
+            </button>
+            </div>
+        </nav>
+    </header>
+    <main class="artwork-main">
+        <img src="../assets/artworks/endlanders.jpg" class="artwork-artist" alt="cat" />
+        <section class="artwork-section">
+            <h1>ENDLANDERS</h1>
+            <div class="row d-flex justify-content-between">
+                <div class="col-6">
+                    <p class="card-text carte-haut-texte"><i class="bi bi-geo-alt-fill"></i> Place des Arts</p>
+                </div>
+                <div class="col-6">
+                    <p class="card-text carte-haut-texte"><i class="bi bi-calendar3"> 10/03/23</i></p>
+                </div>
+            </div>
+            <br>
+            <h3>Artiste</h3>
+            <div class="card artwork-card-artist">
+                <img class="artist-in-question" src="../assets/artists/eteros_studios.jpg" alt="artist">
+                <p>Eteros Studios a été fondé en 2021 par Nikolaos Arampatzoglou. Alors qu'il a commencé comme un projet solo, le studio s'est agrandi en ajoutant à sa liste Giwrgos Vardakis (SFX/Soundtrack), Orfeas Vantarakis (Concept Artist) et Giovanni
+                    Souza (Pixel Artist). D'autres personnes ont parcouru le développement du jeu, apportant leur contribution et leur expertise, aidant à façonner le premier projet du studio, Endlanders.</p>
+                <button type="button" class="btn artwork-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Savoir plus</button>
+
+                <!-- Button trigger modal -->
+
+
+
+
+
+
+            </div>
+            <h3>A propos de l'oeuvre</h3>
+            <p>Inspiré par de nombreux médias et formes d'art différents, Endlanders est un jeu indépendant qui se concentre principalement sur la quête des personnages principaux pour comprendre et explorer l'univers dans lequel ils vivent.</p>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Reservez votre place
+                    </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Courriel
+                            <div class="input-group-sm mb-3">
+                                <input type="email" class="form-control" placeholder=votre@email.com " aria-label="Recipient 's username" aria-describedby="basic-addon2">
+                            </div> Prenom <br>
+                            <div class="input-group-sm mb-3">
+                                <input type="text" class="form-control" placeholder="Votre Prenom" aria-label="Recipient's username " aria-describedby="basic-addon2 ">
+                            </div>Nom<br>
+                            <div class="input-group-sm mb-3 ">
+                                <input type="text " class="form-control " placeholder="Votre Nom " aria-label="Recipient 's username " aria-describedby="basic-addon2 ">
+                            </div>Date de visite
+                            <div class="input-group-sm mb-3 ">
+                                <input type="date " class="form-control " placeholder="La date desiree " aria-label="Recipient 's username " aria-describedby="basic-addon2 ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  Courriel
+                            <div class="input-group-sm mb-3 ">
+                                <input type="email " class="form-control " placeholder=votre@email.com " aria-label="Recipient 's username" aria-describedby="basic-addon2">
+                            </div> Prenom <br>
+                            <div class="input-group-sm mb-3">
+                                <input type="text" class="form-control" placeholder="Votre Prenom" aria-label="Recipient's username " aria-describedby="basic-addon2 ">
+                            </div>Nom<br>
+                            <div class="input-group-sm mb-3 ">
+                                <input type="text " class="form-control " placeholder="Votre Nom " aria-label="Recipient 's username " aria-describedby="basic-addon2 ">
+                            </div>Date de visite
+                            <div class="input-group-sm mb-3 ">
+                                <input type="date " class="form-control " placeholder="La date desiree " aria-label="Recipient 's username " aria-describedby="basic-addon2 ">
+                            </div> -->
+
+        </section>
+
+
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Travaillant principalement comme un studio coopératif plutôt que comme un studio hiérarchique typique, les décisions sont prises soit à l'unanimité, soit laissées à une branche spécifique du jeu pour être prises de manière autonome. Cette autonomie permet
+                    au studio de travailler selon des horaires différents, en rupture avec le travail typique de 9h à 17h auquel la plupart des gens sont habitués, et notre approche de la prise de certaines décisions avec convergence nous permet de nous
+                    sentir satisfaits de notre travail sans nous sentir limités ou frustrés par la bureaucratie. vecteurs.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container pied ">
+            <div class="row ">
+                <div class="col-sm-6 ">
+                    <p>
+                        Projet fictif réalisé das le cadre du cours Optim isation Web 582-424MO. UI de l'app créé par Viktor Zhuravlev. </p>
+                </div>
+                <div class="col-sm-6 ">
+                    <svg class="logo-tim " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 1202.33 303.71 " style="fill: rgb(255, 0, 59) ">
+              <circle cx="1113.33 " cy="161.28 " r="89 "></circle>
+              <path
+                d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02
+                                    12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13
+                                    109.87 216 23h64v257H23z "
+              ></path>
+            </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
